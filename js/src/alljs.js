@@ -97,81 +97,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`;
   bodyss.prepend(noscript);
 }
 
-const bar_links = {
-  users: [
-    {
-      name: "first-come-first-serve questions",
-      link: "/Operating-system/scheduling-algorithms/first-come-first-serve.html"
-    },
-    {
-      name: "shortest job first(SJF) question",
-      link: "/Operating-system/scheduling-algorithms/shortest-job-first.html"
-    },
-    {
-      name: "Shortest Remaining Time First (SRTF) question",
-      link: "/Operating-system/scheduling-algorithms/Shortest-Remaining-Time-First.html"
-    },
-    {
-      name: "Multilevel feedback queue scheduling question",
-      link: "/Operating-system/scheduling-algorithms/multilevel-feedback-queue.html"
-    },
-    {
-      name: "Multilevel queue scheduling question",
-      link: "/Operating-system/scheduling-algorithms/multilevel-queue-scheduling.html"
-    },
-    {
-      name: "priority scheduling question",
-      link: "/Operating-system/scheduling-algorithms/priority-scheduling.html"
-    },
-    {
-      name: "peemptive priority scheduling question",
-      link: "/Operating-system/scheduling-algorithms/preemptive-priority-scheduling.html"
-    },
-    {
-      name: "Round Robin scheduling question",
-      link: "/Operating-system/scheduling-algorithms/round-robin.html"
-    },
-    {
-      name: "Bankers algorithms question",
-      link: "/Operating-system/Deadlocks/Bankers-Algorithms.html"
-    },
-    {
-      name: "Disk scheduling algorithms question",
-      link: "/Operating-system/Disk-scheduling/disk-scheduling-algorithms.html"
-    },
-    {
-      name: "Memory management question",
-      link: "/Operating-system/memory-management/memory-management-topics.html"
-    },
-    {
-      name: "Buddy System question",
-      link: "/Operating-system/memory-management/Buddy-system.html"
-    },
-    {
-      name: "Fit question",
-      link: "/Operating-system/memory-management/Fit-algorithms.html"
-    },
-  ],
-};
 
-function bar(link_arr) {
-  let bar = document.createElement("div");
-  // bar.classList.add('scrollable');
-  let irhtml = `<div
-        id="bar1"
-        class="scroll-container scrollable"
-      >
-      <button class="scroll-left" onclick="scrollLefti()" style="position:fixed;left:5px">&#9664;</button>
-      `;
-  let loopt = "";
-  for (const users of link_arr.users) {
-    // console.log(users.link + "" + users.name);
-    loopt += `<a class="text-black text-decoration-underline scroll-item" style="text-decoration-color: rgb(255, 255, 255);text-decoration-thickness: 0.3ex;text-underline-offset: 0.3ex;"   href="${users.link}">${users.name}</a>`;
-  }
-  bar.innerHTML = irhtml + loopt + `<button class="scroll-right" onclick="scrollRight()" style="position:fixed;right:5px">&#9654;</button></div>`;
-  let h12 = document.querySelector("#fheader");
-  h12.insertAdjacentElement("afterend", bar);
-}
+
 
 loadScript('/js/src/for_all_page.min.js', () => {
   loadScript('/js/src/hdr_ftr.min.js', () => { founder_schemas(); css_files(); last_modified(); bar(bar_links); published_data(); });

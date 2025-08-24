@@ -2,6 +2,11 @@
 <html lang="en">
 
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
@@ -11,138 +16,19 @@
   <section>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFD1DC;">
       <div class="container-fluid">
-        <a class="navbar-brand navbar-bran" href="/index.html" target="_blank">CSvidyalaya.com</a>
+        <a class="navbar-brand navbar-bran" href="/index.html" target="_blank">cusb.csvidyalaya.com</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon" onclick="c()"></span> </button> <div class="collapse navbar-collapse"
-            id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="https://kundalkr.github.io/csvidyalaya/"
-                target="_blank">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Subjects
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="/os/operating_System_Topics.html">Operating System</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/dsa_in_c/dsa_in_c_topic.html">Dsa</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/Digital_Fundamentals/Dgital_funda_topic.html">Digital Fundamentals</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/DBMS/dbms_topic.html">Database Management System (DBMS)</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="csvidyalaya.com" target="_blank">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/sitemap.html" target="_blank">
-                <span class="material-symbols-outlined">hub</span></a>
-            </li>
-          </ul>
-      </div>
+          <span class="navbar-toggler-icon" onclick="c()"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        </div>
       </div>
     </nav>
     <div id="sidebar" style="display:none">
       <button onclick="d()" style="float: right; padding-right: 22px;">
         <span class="material-symbols-outlined"> close </span>
       </button>
-      <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li>
-          <a href="/os/operating_System_Topics.html">operating System Topics</a>
-        </li>
-        <li>
-          <a href="/os/scheduling_algorithms/Scheduling_Alorithms_topic.html">Scheduling Algorithms Question</a>
-          <ul>
-            <li>
-              <a href="https://csvidyalaya.com/os/scheduling_algorithms/fcfs.html">first-come-first-serve(FCFS) </a>
-            </li>
-            <li>
-              <a href="https://csvidyalaya.com/os/scheduling_algorithms/sjf1.html">Shortest Job First(SJF) </a>
-            </li>
-            <li>
-              <a href="https://csvidyalaya.com/os/scheduling_algorithms/sjf2.html">SRTF (Shortest Remaining Time
-                First)</a>
-            </li>
-            <li>
-              <a href="https://csvidyalaya.com/os/scheduling_algorithms/RR1.html">Round Robin(RR)</a>
-            </li>
-            <li>
-              <a href="https://csvidyalaya.com/os/scheduling_algorithms/ps1.html">priority scheduling</a>
-            </li>
-            <li>
-              <a href="https://csvidyalaya.com/os/scheduling_algorithms/ps2.html">preemptive priority scheduling</a>
-            </li>
-            <li>
-              <a href="https://csvidyalaya.com/os/scheduling_algorithms/mlfqs.html">multi-level feedback Queue (MLFQ)
-                scheduling</a>
-            </li>
-            <li>
-              <a href="https://csvidyalaya.com/os/scheduling_algorithms/MLQS.html">multi-level Queue (MLQ)
-                scheduling</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="/dsa_in_c/dsa_in_c_topic.html">Dsa In C</a>
-          <ul>
-            <li>
-              <a href="/dsa_in_c/infixtopostfix.html">Infix And Postfix question</a>
-            </li>
-            <li>
-              <a href="/dsa_in_c/prefixtopostfix.html">Prefix And Postfix question</a>
-            </li>
-            <li>
-              <a href="/dsa_in_c/stack2.html">Infix And Prefix question</a>
-            </li>
-            <li>
-              <a href="/dsa_in_c/stack3.html">Prefix And Infix question</a>
-            </li>
-            <li>
-              <a href="/dsa_in_c/postfixprefixofinfix.html">Postfix & Prefix To Infix</a>
-            </li>
-            <li>
-              <a href="/dsa_in_c/infixtoprefix.html">Infix To Prefix question</a>
-            </li>
-            <li>
-              <a href="/dsa_in_c/linkedlist1.html">linkedlist question</a>
-            </li>
-          </ul>
-        </li>
 
-        <li>
-          <a href="/DBMS/dbms_topic.html">DBMS</a>
-          <ul>
-            <li>
-              <a href="/DBMS/DBMS_topics/Relational_algebra_topics.html">Relational Algebra Topics</a>
-            </li>
-
-            <li>
-              <a href=" https://csvidyalaya.com/DBMS/DBMS_topics/relational_algebra/relational_algebra_question.html">Relational
-                Algebra question</a>
-            </li>
-
-            <li>
-              <a href="https://csvidyalaya.com/DBMS/DBMS_topics/relational_calculus_topic.html">Relational calculus</a>
-            </li>
-
-            <li>
-              <a href="https://csvidyalaya.com/DBMS/DBMS_topics/relational_algebra_relational_calculus.html">Relational
-                Algebra + relational calculus</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
     </div>
   </section>
 </body>

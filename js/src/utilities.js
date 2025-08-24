@@ -23,7 +23,7 @@ export function popup_links(linksarr) {
                     <button type="button" id="btn_closeder" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                       <ul class="list-group list-group-flush">`;
+                <ul class="list-group list-group-flush">`;
   let loopt = "";
   for (const users of linksarr.users) {
     loopt += `<li class="list-group-item" style="background-color: #FFD1DC;"><a href="${users.link}">${users.name}</a></li>`;
