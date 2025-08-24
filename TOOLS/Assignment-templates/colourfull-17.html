@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="module" src="/js/src/alljs.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>appscript app</title>
+    <link rel="stylesheet" href="/TOOLS/Assignment-templates/css/main.min.css">
+</head>
+
+<body>
+    <div id="three-section">
+        <div id="left-side" class="sticky-top ">
+            <ul></ul>
+        </div>
+        <div id="main-content">
+            <main>
+                <nav id="breadcrumbs" style="--bs-breadcrumb-divider: '&gt;';">
+                    <ol class="breadcrumb mt-2">
+                    </ol>
+                </nav>
+                <div class="featured-image">
+                    <img src="" alt="">
+                </div>
+                <div id="title-date">
+                    <h1></h1>
+                </div>
+                <article>
+                    <section>
+                        <div class="heading-wrapper mt-3 mb-2">
+                            <a href="#fill-the-form-to-generate-your-page">
+                                <svg class="icon border border-2" aria-hidden="true">
+                                    <use href="/assets/icon/sprite.svg#heades"></use>
+                                </svg>
+                            </a>
+                            <h2 id="fill-the-form-to-generate-your-page">fill the form to generate your page</h2>
+                        </div>
+                        <img src="/assets/Template/colorfull-17.jpg" alt="">
+                        <form id="myForm" class="border border-1 p-3 border-secondary mt-5 mb-5">
+                            <!-- yellow_flower -->
+                            <div class="mb-3">
+                                <label for="assignment_title" class="form-label">Assignment Title</label>
+                                <a class="btn" onclick="label_changer(this)">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <input type="text" name="assignment_title_value" class="form-control"
+                                    placeholder="ex : hazardous and natural development factors" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="course_title" class="form-label"> Course Title </label>
+                                <a class="btn" onclick="label_changer(this)">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <input type="text" class="form-control" id="Subject" placeholder="ex : operating system"
+                                    name="course_title_value" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="department_name" class="form-label"> Department name : </label>
+                                <a class="btn" onclick="label_changer(this)">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <input type="text" class="form-control" id="Department_name"
+                                    placeholder="ex : Department of Biology" name="department_name_value" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="session" class="form-label"> Session: </label>
+                                <a class="btn" onclick="label_changer(this)">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <input type="text" class="form-control" id="Session" placeholder="ex : 2024 - 2026"
+                                    name="session_value" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="submitted_by" class="form-label"> Submitted By: </label>
+                                <a class="btn" onclick="label_changer(this)">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <input type="text" class="form-control" id="submitted_by" placeholder="Your name"
+                                    name="submitted_by_value" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="enrollment_no" class="form-label"> Enrollment no : </label>
+                                <a class="btn" onclick="label_changer(this)">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <input type="text" class="form-control" id="Enrollment_no"
+                                    placeholder="ex : CUSB402312678" name="enrollment_no_value" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="submitted_to" class="form-label"> Submitted to: </label>
+                                <a class="btn" onclick="label_changer(this)">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <input type="text" class="form-control" id="submitted_to" placeholder="teacher name"
+                                    name="submitted_to_value" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="template_code" class="form-label"> template code </label>
+                                <input type="text" class="form-control" id="template_code" placeholder="TYUOBGVFDT7"
+                                    name="template_code" value="TYUOBGVFDT7" readonly>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </section>
+                </article>
+            </main>
+        </div>
+        <div id="right-content">
+            <section id="book-recommendation" class="border border-danger border-2">
+                <div class="heading-wrapper">
+                    <a href="">
+                        <svg class="icon border border-2" aria-hidden="true">
+                            <use href="/assets/icon/sprite.svg#heades"></use>
+                        </svg>
+                    </a>
+                    <h2 id="" style="font-size: large;"></h2>
+                </div>
+                <div class="w-100">
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="/TOOLS/Assignment-templates/js/doc-request.min.js"></script>
+    <script type="module" src="/TOOLS/Assignment-templates/js/commonthings.min.js"></script>
+</body>
+
+</html>

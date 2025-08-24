@@ -1,0 +1,32 @@
+ li > a {
+        font-family: "Playpen Sans", cursive;
+        font-optical-sizing: auto;
+        font-weight: 450;
+        font-style: normal;
+        a,
+        a:hover,
+        a:focus,
+        a:active {
+          text-decoration: none;
+          color: inherit;
+          color: black;
+        }
+      }
+      a {
+        text-decoration-color: blueviolet;
+        text-decoration-thickness: 0.3ex;
+        text-underline-offset: 0.3ex;
+      }
+
+      .container .card:hover {
+        animation: myAnim 0s ease 0s 1 normal forwards;
+        transform-origin: center;
+      }
+      @keyframes myAnim {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(10deg);
+        }
+      }

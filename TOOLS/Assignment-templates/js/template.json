@@ -1,0 +1,264 @@
+{
+    "books": [
+        {
+            "file_name": "border-flower.html , Asthetic-1.html, Asthetic-2.html , colourfull-17.html, colourfull-20.html ,colourfull-21.html, colourfull-18.html , colourfull-19.html , colourfull-1.html, colourfull-15.html, colourfull-16.html, colourfull-11.html ,colourfull-12.html,colourfull-14.html colourfull-13.html ,colourfull-10.html ,colourfull-8.html ,colourfull-9.html , colourfull-6.html,colourfull-7.html,  colourfull-2.html ,colourfull-3.html ,colourfull-4.html, colourfull-5.html, corner-flower.html first-template.html flower-background.html old-style-1.html old-style-2.html old-style-3.html old-style-4.html old-style-5.html old-style-6.html side-flower-1.html, side-flower-2.html, flower-in-bottom-1.html, different-side-flower-1.html, different-side-flower-2.html ,different-side-flower-3.html ,left-side-flower-1.html, different-side-flower-5.html, different-side-flower-6.html,  different-side-flower-4.html ,different-side-flower-7.html different-side-flower-8.html, right-bottom-flower-1.html, corner-border-1.html, right-side-flower-1.html, left-bottom-flower-1.html",
+            "book": [
+                {
+                    "book_image": "/assets/Template/border-flower.jpg",
+                    "image_alt": "pagw with flower border",
+                    "book_link": "/TOOLS/Assignment-templates/border-flower.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-1.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-1.html"
+                },
+                {
+                    "book_image": "/assets/Template/corner-flower.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/corner-flower.html"
+                },
+                {
+                    "book_image": "/assets/Template/first-template.png",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/first-template.html"
+                },
+                {
+                    "book_image": "/assets/Template/flower-background.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/flower-background.html"
+                },
+                {
+                    "book_image": "/assets/Template/old-style-1.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/old-style-1.html"
+                },
+                {
+                    "book_image": "/assets/Template/old-style-2.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/old-style-2.html"
+                },
+                {
+                    "book_image": "/assets/Template/old-style-3.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/old-style-3.html"
+                },
+                {
+                    "book_image": "/assets/Template/old-style-4.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/old-style-4.html"
+                },
+                {
+                    "book_image": "/assets/Template/old-style-5.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/old-style-5.html"
+                },
+                {
+                    "book_image": "/assets/Template/old-style-6.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/old-style-6.html"
+                },
+                {
+                    "book_image": "/assets/Template/side-flower-1.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/side-flower-1.html"
+                },
+                {
+                    "book_image": "/assets/Template/side-flower-2.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/side-flower-2.html"
+                },
+                {
+                    "book_image": "/assets/Template/different-side-flower-1.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/different-side-flower-1.html"
+                },
+                {
+                    "book_image": "/assets/Template/different-side-flower-2.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/different-side-flower-2.html"
+                },
+                {
+                    "book_image": "/assets/Template/different-side-flower-3.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/different-side-flower-3.html"
+                },
+                {
+                    "book_image": "/assets/Template/flower-in-bottom-1.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/flower-in-bottom-1.html"
+                },
+                {
+                    "book_image": "/assets/Template/left-side-flower-1.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/left-side-flower-1.html"
+                },
+                {
+                    "book_image": "/assets/Template/different-side-flower-3.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/different-side-flower-3.html"
+                },
+                {
+                    "book_image": "/assets/Template/different-side-flower-4.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/different-side-flower-4.html"
+                },
+                {
+                    "book_image": "/assets/Template/left-side-flower-1.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/left-side-flower-1.html"
+                },
+                {
+                    "book_image": "/assets/Template/different-side-flower-5.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/different-side-flower-5.html"
+                },
+                {
+                    "book_image": "/assets/Template/different-side-flower-6.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/different-side-flower-6.html"
+                },
+                {
+                    "book_image": "/assets/Template/right-bottom-flower-1.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/right-bottom-flower-1.html"
+                },
+                {
+                    "book_image": "/assets/Template/different-side-flower-7.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/different-side-flower-7.html"
+                },
+                {
+                    "book_image": "/assets/Template/different-side-flower-8.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/different-side-flower-8.html"
+                },
+                {
+                    "book_image": "/assets/Template/corner-border-1.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/corner-border-1.html"
+                },
+                {
+                    "book_image": "/assets/Template/right-side-flower-1.jpg",
+                    "image_alt": "OPERATING SYSTEM CONCEPT by Abraham Silberschatz",
+                    "book_link": "/TOOLS/Assignment-templates/right-side-flower-1.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-2.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-2.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-3.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-3.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-4.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-4.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-5.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-5.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-6.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-6.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-7.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-7.html"
+                },
+                {
+                    "book_image": "/assets/Template/left-bottom-flower-1.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/left-bottom-flower-1.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-8.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-8.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-9.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-9.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-10.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-10.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-11.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-11.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-12.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-12.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-13.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-13.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-14.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-14.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-15.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-15.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-16.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-16.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-17.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-17.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-18.jpg",
+                    "image_alt": "Operating Systems, by William Stallings",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-18.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-19.jpg",
+                    "image_alt": " hhfh fh h dg ger tert",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-19.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-20.jpg",
+                    "image_alt": "xcv g hfghf",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-20.html"
+                },
+                {
+                    "book_image": "/assets/Template/Asthetic-1.jpg",
+                    "image_alt": "xcv g hfghf",
+                    "book_link": "/TOOLS/Assignment-templates/Asthetic-1.html"
+                },
+                {
+                    "book_image": "/assets/Template/colorfull-21.jpg",
+                    "image_alt": "xcv g hfghf",
+                    "book_link": "/TOOLS/Assignment-templates/colourfull-21.html"
+                },
+                {
+                    "book_image": "/assets/Template/Asthetic-2.jpg",
+                    "image_alt": "xcv g hfghf",
+                    "book_link": "/TOOLS/Assignment-templates/Asthetic-2.html"
+                }
+            ]
+        }
+    ]
+}
