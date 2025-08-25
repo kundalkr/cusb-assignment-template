@@ -39,83 +39,37 @@ function css_files() {
     heads.appendChild(cssf);
   });
 }
-//  all css adding end
-function founder_schemas() {
-  // founder json ld
-  const founder_schema = document.createElement("script");
-  founder_schema.type = "application/ld+json";
-  founder_schema.innerHTML = `{
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "CSvidyalaya",
-              "url": "https://www.csvidyalaya.com/",
-              "logo": "https://www.csvidyalaya.com/assets/logo/main_Logo.jpg",
-              "description": "Your Ultimate Learning Hub: Master CS Fundamentals with Ease - Welcome to your one-stop educational platform designed to empower learners at every level. Our website offers a rich collection of resources focused on Data Structures and Algorithms (DSA), CPU and Disk Scheduling Algorithms, Deadlock Concepts, Computer Fundamentals, and Computer Network Questions. Whether you're a student preparing for competitive exams, a beginner strengthening your core computer science concepts, or someone brushing up on technical interviews, our curated content is crafted to simplify learning and support your success.",
-              "founder": [
-                {
-                  "@type": "Person",
-                  "name": "Kundal Kumar",
-                  "url": "www.linkedin.com/in/kundal-kumar"
-                }
-              ],
-  "sameAs": [
-    "https://www.facebook.com/csvidyalaya1/",
-    "https://www.instagram.com/csvidyalaya/"
-  ]
-            }`;
-  document.head.appendChild(founder_schema);
-  // founder json ld
-}
+
 function published_data() {
   const lastModified = new Date(document.lastModified).toISOString().split('T')[0];
-
   const scriptTag = document.getElementById("structured-data");
   if (document.querySelector('#structured-data')) {
     const json = JSON.parse(scriptTag.textContent);
     json.dateModified = lastModified;
     scriptTag.textContent = JSON.stringify(json);
   }
-
 }
-
 if (
   window.location.hostname !== "localhost" &&
   window.location.hostname !== "127.0.0.1"
 ) {
   let script1 = document.createElement("script");
-  script1.innerHTML = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WTF8XDP8');`;
+  script1.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-7S4HL49412");
+  script1.async = true;
 
 
-  let noscript = document.createElement("noscript");
-  noscript.innerHTML = `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTF8XDP8"
-height="0" width="0" style="display:none;visibility:hidden"></iframe>`;
-  let bodyss = document.querySelector("body");
-  bodyss.prepend(noscript);
+  let script2 = document.createElement("script");
+  script2.innerHTML = `window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7S4HL49412');`;
+
+  add_head(script1); add_head(script2);
 }
 
-
-
-
 loadScript('/js/src/for_all_page.min.js', () => {
-  loadScript('/js/src/hdr_ftr.min.js', () => { founder_schemas(); css_files(); last_modified(); bar(bar_links); published_data(); });
+  loadScript('/js/src/hdr_ftr.min.js', () => { css_files(); last_modified(); published_data(); });
 });
-let leftandright = document.createElement('script');
-leftandright.innerHTML = `function scrollLefti() {
-    document.querySelector('.scrollable').scrollBy({
-        left: -150, 
-        behavior: 'smooth' 
-    });
-};
-function scrollRight() {
-    document.querySelector('.scrollable').scrollBy({
-        left: 150, 
-        behavior: 'smooth' 
-    });
-}`;
-add_head(leftandright);
 
 
