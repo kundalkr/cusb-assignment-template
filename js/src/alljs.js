@@ -1,4 +1,4 @@
-import { add_head } from "/js/src/utilities.min.js";
+import { add_head, file_name_viewer } from "/js/src/utilities.min.js";
 
 function loadScript(src, callback) {
   const script = document.createElement('script');
@@ -31,13 +31,17 @@ function css_files() {
     "/css/main-content.min.css",
     "/css/universal-css.min.css",
   ];
-  let heads = document.querySelector("head");
-  cssFiles.forEach((file) => {
-    let cssf = document.createElement("link");
-    cssf.setAttribute("rel", "stylesheet");
-    cssf.setAttribute("href", `${file}`);
-    heads.appendChild(cssf);
-  });
+
+  if (file_name_viewer() != "index.html") {
+
+
+    cssFiles.forEach((file) => {
+      let cssf = document.createElement("link");
+      cssf.setAttribute("rel", "stylesheet");
+      cssf.setAttribute("href", `${file}`);
+      add_head(cssf);
+    });
+  }
 }
 
 function published_data() {

@@ -1,0 +1,84 @@
+  /* main logo */
+        .navbar-bran {
+            font-family: "Pacifico", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @media (width>=500px) {
+            .navbar-bran {
+                font-family: "Pacifico", cursive;
+                font-weight: 400;
+                font-style: normal;
+            }
+        }
+
+        /* main logo  end*/
+        .icon {
+            width: 40px;
+            height: 40px;
+            fill: currentColor;
+            margin-left: 5px;
+        }
+
+        .heading-wrapper {
+            display: flex;
+            gap: .5em;
+        }
+
+        @media (width<=700px) {
+            .icon {
+                width: 25px;
+                height: 25px;
+
+            }
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+
+            @media (width<=800px) {
+                width: 90%;
+                height: auto;
+            }
+        }
+
+        .card:hover {
+            animation: none !important;
+        }
+
+        #asthetic-template,
+        #colourfull-templates {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            @media (width<=800px) {
+                flex-direction: column;
+            }
+
+            img {
+                border: 2px solid black;
+                margin-top: 5px;
+            }
+        }
+
+        .steps {
+            counter-reset: step;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .steps li {
+            counter-increment: step;
+            margin: 8px 0;
+        }
+
+        .steps li::before {
+            content: "Step "counter(step) ". ";
+            font-weight: bold;
+            color: #007bff;
+        }
