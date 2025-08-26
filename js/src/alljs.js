@@ -57,12 +57,6 @@ if (
   window.location.hostname !== "localhost" &&
   window.location.hostname !== "127.0.0.1"
 ) {
-
-let metas = document.createElement("meta");
-metas.setAttribute("name","google-site-verification");
-metas.setAttribute("content","Pz_hm4OeZPam4GMa2RZYXdh80XfluUVS3oOmrApcXPo");
-add_head(metas);
-
   let script1 = document.createElement("script");
   script1.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-7S4HL49412");
   script1.async = true;
@@ -70,12 +64,9 @@ add_head(metas);
   script2.innerHTML = `window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-7S4HL49412');`;
-
   add_head(script1); add_head(script2);
 }
-
 loadScript('/js/src/for_all_page.min.js', () => {
   loadScript('/js/src/hdr_ftr.min.js', () => { css_files(); last_modified(); published_data(); });
 });
