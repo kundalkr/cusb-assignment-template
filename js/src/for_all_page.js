@@ -1,6 +1,4 @@
 import { add_head, google_font } from "/js/src/utilities.min.js";
-
-
 let bootstrapcss = document.createElement("link");
 bootstrapcss.setAttribute(
   "href",
