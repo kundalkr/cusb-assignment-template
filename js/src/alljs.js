@@ -57,11 +57,15 @@ if (
   window.location.hostname !== "localhost" &&
   window.location.hostname !== "127.0.0.1"
 ) {
+
+let metas = document.createElement("meta");
+metas.setAttribute("name","google-site-verification");
+metas.setAttribute("content","Pz_hm4OeZPam4GMa2RZYXdh80XfluUVS3oOmrApcXPo");
+add_head(metas);
+
   let script1 = document.createElement("script");
   script1.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-7S4HL49412");
   script1.async = true;
-
-
   let script2 = document.createElement("script");
   script2.innerHTML = `window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
