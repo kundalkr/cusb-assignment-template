@@ -31,7 +31,7 @@ export function book_name_recommender(object) {
   for (let booke of object.books) {
     if (booke.file_name.includes(`${file_name_viewer()}`)) {
       for (let book of booke.book) {
-        allbookss += `<a href="${book.book_link}"><img loading="lazy" class="w-100 h-auto p-2"  src="${book.book_image}" alt="${book.image_alt}"/></a>`;
+        allbookss += `<a href="${book.template_link}"><img loading="lazy" class="w-100 h-auto p-2"  src="${book.template_image}" alt="${book.image_alt}"/></a>`;
       }
     }
   }
