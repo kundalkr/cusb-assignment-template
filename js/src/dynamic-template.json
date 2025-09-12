@@ -5,17 +5,17 @@
                 {
                     "template_image": "/assets/Template/left-side-flower-1.webp",
                     "image_alt": "left side flower template for college assignment",
-                    "template_link": "/TOOLS/Assignment-templates/colourfull-template/left-side-flower-1.html"
+                    "template_link": "/TOOLS/Assignment-templates/asthetic-template/left-side-flower-1.html"
                 },
                 {
                     "template_image": "/assets/Template/right-side-flower-1.webp",
                     "image_alt": "right side flower template",
-                    "template_link": "/TOOLS/Assignment-templates/colourfull-template/right-side-flower-1.html"
+                    "template_link": "/TOOLS/Assignment-templates/asthetic-template/right-side-flower-1.html"
                 },
                 {
                     "template_image": "/assets/Template/right-bottom-flower-1.webp",
                     "image_alt": "right bottom flower template",
-                    "template_link": "/TOOLS/Assignment-templates/colourfull-template/right-bottom-flower-1.html"
+                    "template_link": "/TOOLS/Assignment-templates/asthetic-template/right-bottom-flower-1.html"
                 },
                 {
                     "template_image": "/assets/Template/old-style-6.webp",
@@ -81,14 +81,15 @@
                     "template_image": "/assets/Template/Asthetic-2.webp",
                     "image_alt": "template for central university of south bihar",
                     "template_link": "/TOOLS/Assignment-templates/asthetic-template/Asthetic-2.html"
-                },
-                {
+                }
+           
+            ],
+            "colourfull_template": [
+                     {
                     "template_image": "/assets/Template/flower-in-bottom-1.webp",
                     "image_alt": "template usefull for cusb student",
                     "template_link": "/TOOLS/Assignment-templates/colourfull-template/flower-in-bottom-1.html"
-                }
-            ],
-            "colourfull_template": [
+                },
                 {
                     "template_image": "/assets/Template/colorfull-6.webp",
                     "image_alt": "colorfull template for cusb student which help in making assignment",

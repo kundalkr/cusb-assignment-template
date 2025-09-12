@@ -130,54 +130,61 @@
   }
 }
 
-#three-section #right-content section#book-recommendations > p {
+#three-section #right-content section#book-recommendations>p {
   text-align: center;
   text-decoration: underline;
   text-underline-offset: 5px;
   color: #000000;
-  background-color: #12ED96 ;
+  background-color: #12ED96;
   padding: 5px;
 }
 
 #three-section #main-content section#book-recommendation div>h2 {
   text-decoration: underline;
   text-underline-offset: 5px;
-  text-align: center;  color: #000000;
-  background-color: #12ED96 ;
+  text-align: center;
+  color: #000000;
+  background-color: #12ED96;
 }
 
 /*  */
- .scroll-container {
-      display: flex;
-      overflow-x: hidden;
-      white-space: nowrap;
-      padding: 10px;
-      background-color: #f9f9f9;
-      border-bottom: 1px solid #ccc;
-      scrollbar-width: none;
-   
-      scrollbar-color: #888 #eee;
-    }
-       .scroll-item {
-      display: inline-block;
-      padding: 8px 16px;
-      margin-right: 10px;
-      background-color: white;
-      border: 1px solid #ddd;
-      border-radius: 20px;
-      cursor: pointer;
-      user-select: none;
-      white-space: nowrap;
-      font-size: 14px;
-      transition: background-color 0.3s, box-shadow 0.3s;
-    }
-       .scroll-item:hover {
-      background-color: #e0f0ff;
-      box-shadow: 0 2px 8px rgba(0, 123, 255, 0.3);
-    }
+.scroll-container {
+  display: flex;
+  overflow-x: hidden;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+  scrollbar-width: none;
+
+  scrollbar-color: #888 #eee;
+}
+
+.scroll-item {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  font-size: 14px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.scroll-item:hover {
+  background-color: #e0f0ff;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.3);
+}
+
 #right-content .icon {
   width: 26px;
   height: 26px;
   fill: currentColor;
   margin-left: 5px;
 }
+
+
+

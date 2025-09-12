@@ -3,20 +3,20 @@
         {
             "file_name": "border-flower.html , Asthetic-1.html, Asthetic-2.html , colourfull-17.html, colourfull-20.html ,colourfull-21.html, colourfull-18.html , colourfull-19.html , colourfull-1.html, colourfull-15.html, colourfull-16.html, colourfull-11.html ,colourfull-12.html,colourfull-14.html colourfull-13.html ,colourfull-10.html ,colourfull-8.html ,colourfull-9.html , colourfull-6.html,colourfull-7.html,  colourfull-2.html ,colourfull-3.html ,colourfull-4.html, colourfull-5.html, corner-flower.html first-template.html flower-background.html old-style-1.html old-style-2.html old-style-3.html old-style-4.html old-style-5.html old-style-6.html side-flower-1.html, side-flower-2.html, flower-in-bottom-1.html, different-side-flower-1.html, different-side-flower-2.html ,different-side-flower-3.html ,left-side-flower-1.html, different-side-flower-5.html, different-side-flower-6.html,  different-side-flower-4.html ,different-side-flower-7.html different-side-flower-8.html, right-bottom-flower-1.html, corner-border-1.html, right-side-flower-1.html, left-bottom-flower-1.html",
             "book": [
-                 {
+                {
                     "template_image": "/assets/Template/left-side-flower-1.webp",
                     "image_alt": "left side flower template for college assignment",
-                    "template_link": "/TOOLS/Assignment-templates/colourfull-template/left-side-flower-1.html"
+                    "template_link": "/TOOLS/Assignment-templates/asthetic-template/left-side-flower-1.html"
                 },
                 {
                     "template_image": "/assets/Template/right-side-flower-1.webp",
                     "image_alt": "right side flower template",
-                    "template_link": "/TOOLS/Assignment-templates/colourfull-template/right-side-flower-1.html"
+                    "template_link": "/TOOLS/Assignment-templates/asthetic-template/right-side-flower-1.html"
                 },
                 {
                     "template_image": "/assets/Template/right-bottom-flower-1.webp",
                     "image_alt": "right bottom flower template",
-                    "template_link": "/TOOLS/Assignment-templates/colourfull-template/right-bottom-flower-1.html"
+                    "template_link": "/TOOLS/Assignment-templates/asthetic-template/right-bottom-flower-1.html"
                 },
                 {
                     "template_image": "/assets/Template/old-style-6.webp",
@@ -88,7 +88,7 @@
                     "image_alt": "template usefull for cusb student",
                     "template_link": "/TOOLS/Assignment-templates/colourfull-template/flower-in-bottom-1.html"
                 },
-                 {
+                {
                     "template_image": "/assets/Template/colorfull-6.webp",
                     "image_alt": "colorfull template for cusb student which help in making assignment",
                     "template_link": "/TOOLS/Assignment-templates/colourfull-template/colourfull-6.html"

@@ -1,28 +1,34 @@
     img {
       width: 500px;
       height: auto;
+
       @media (width<=800px) {
         width: 100%;
         height: auto;
       }
     }
+
     #timerDisplay #seconddiv {
       margin-top: 20px;
       font-size: 48px;
       font-weight: bold;
       color: #333;
     }
+
     /* full three divided section css*/
     #three-section {
       display: flex;
+
       #left-side {
         ul {
           background-color: rgba(242, 237, 240, 0.879);
+
           li {
             padding-top: 13px;
           }
         }
       }
+
       @media (width>=1000px) {
         #left-side {
           width: 15%;
@@ -31,6 +37,7 @@
           height: 100vh;
         }
       }
+
       @media (700px<=width<=1000px) {
         #left-side {
           width: 30%;
@@ -39,15 +46,18 @@
 
         }
       }
+
       @media (width<=700px) {
         #left-side {
           display: none;
         }
       }
     }
+
     #left-side {
       img {
         border: 1px solid red;
         margin-bottom: 5px;
       }
     }
+

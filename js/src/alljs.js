@@ -32,8 +32,6 @@ function css_files() {
     "/css/universal-css.min.css",
   ];
 
-  if (file_name_viewer() != "index.html") {
-
 
     cssFiles.forEach((file) => {
       let cssf = document.createElement("link");
@@ -42,7 +40,7 @@ function css_files() {
       add_head(cssf);
     });
   }
-}
+
 
 function published_data() {
   const lastModified = new Date(document.lastModified).toISOString().split('T')[0];
@@ -67,6 +65,7 @@ if (
   gtag('config', 'G-7S4HL49412');`;
   add_head(script1); add_head(script2);
 }
+
 loadScript('/js/src/for_all_page.min.js', () => {
   loadScript('/js/src/hdr_ftr.min.js', () => { css_files(); last_modified(); published_data(); });
 });
