@@ -100,11 +100,10 @@
   display: block;
   margin-bottom: 20px;
   margin-top: 20px;
-
 }
 
 /* featured image end*/
-@media (width<=700px) {
+  @media (width<=700px) {
   #breadcrumbs {
     a {
       font-size: .6rem;

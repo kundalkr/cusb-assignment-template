@@ -1,18 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://cusb.csvidyalaya.com/</loc>
+       <loc>https://cusbcoverpage.qzz.io</loc>
     <image:image>
-      <image:loc>https://cusb.csvidyalaya.com/assets/Template/colorfull-1.webp</image:loc>
+      <image:loc>https://cusbcoverpage.qzz.io/assets/Template/colorfull-1.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://cusb.csvidyalaya.com/assets/Template/Asthetic-1.webp</image:loc>
+      <image:loc>https://cusbcoverpage.qzz.io/assets/Template/Asthetic-1.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://cusb.csvidyalaya.com/assets/Template/Asthetic-2.webp</image:loc>
+      <image:loc>https://cusbcoverpage.qzz.io/assets/Template/Asthetic-2.webp</image:loc>
     </image:image>
-    <lastmod>2025-09-14</lastmod>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+  <url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/Asthetic-1.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+ <url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/Asthetic-1.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+  <url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/Asthetic-2.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/border-flower.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/corner-border-1.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/corner-flower.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/different-side-flower-1.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/different-side-flower-2.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/different-side-flower-3.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/different-side-flower-4.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/different-side-flower-4.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/different-side-flower-5.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/different-side-flower-6.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/different-side-flower-7.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/different-side-flower-8.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/old-style-1.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/old-style-2.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/old-style-3.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/old-style-4.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/old-style-5.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+
+<url>
+    <loc>https://cusbcoverpage.qzz.io/TOOLS/Assignment-templates/asthetic-template/old-style-6.html</loc>
+    <lastmod>2025-11-12</lastmod>
+  </url>
+
+  <url>
+    <loc>https://cusbcoverpage.qzz.io</loc>
+    <lastmod>2025-11-12</lastmod>
   </url>
 </urlset>
